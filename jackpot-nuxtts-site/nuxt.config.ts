@@ -17,6 +17,10 @@ export default {
   buildModules: ["@nuxt/typescript-build"],
   modules: [
     "@nuxtjs/axios",
+    "nuxt-buefy"
   ],
+  buefy: {
+
+  },
   axios: {}
 }

@@ -1,6 +1,6 @@
 <template>
-    <p>{ transaction.actor }</p>
-    <p>{ transaction.amount }</p>
+    <p> {{transaction.fromAccount.first_name}} </p>
+<!--    <p> {{ transaction.amount.toString() }} </p>-->
 </template>
 
 <script lang="ts">
@@ -11,8 +11,8 @@
     } from "nuxt-property-decorator"
     import { GameMoneyTransaction } from "~/types";
 
-    @Component({})
-    export default class TransactionListing extends Vue {
+    @Component
+    export default class TransactionRecord extends Vue {
         @Prop() transaction!: GameMoneyTransaction
     }
 
