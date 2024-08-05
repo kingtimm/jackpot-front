@@ -12,7 +12,7 @@
     "fibers": "^4.0.1",
     "lodash": "latest",
     "node-sass": "^4.12.0",
-    "nuxt": "2.9.2",
+    "nuxt": "3.12.4",
     "nuxt-buefy": "^0.3.15",
     "nuxt-property-decorator": "2.4.0",
     "sass": "^1.22.12",
